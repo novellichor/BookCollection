@@ -1,0 +1,89 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.books{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.book{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color:aquamarine;
+}
+
+.delete{
+    border: none;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: rgb(228, 107, 107);
+    cursor: pointer;
+    border: 1px solid rgb(230, 121, 121);
+    color: white;
+    border-radius: 10px;
+}
+
+.delete:hover{
+    background-color: rgb(242, 151, 151);
+}
+
+.update{
+    border: none;
+    margin-top: 10px;
+    padding: 10px 15px ;
+    background-color: rgb(34, 112, 228);
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 201);
+    color: white;
+    border-radius: 10px;
+}
+
+.update:hover{
+    background-color: rgb(134, 159, 234);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.formButton{
+    border: none;
+    padding: 10px 15px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.formButton:hover{
+    background-color: gray;
+}
+
+
+
